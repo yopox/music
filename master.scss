@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:700');
+
+body {
+  margin: 0;
+  background-color: #044535;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#bg {
+  font-family: 'Overpass';
+  font-weight: 700;
+  font-size: 600px;
+  color: #001912;
+  user-select: none;
+  cursor: default;
+}
