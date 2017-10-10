@@ -1,19 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800i|Quicksand:300,400');
 
 body {
   margin: 0;
   background-color: #044535;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
 }
 
 #bg {
-  font-family: 'Overpass';
-  font-weight: 700;
-  font-size: 600px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 22vw;
   color: #001912;
   user-select: none;
   cursor: default;
+}
+
+#playlist {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Quicksand';
+  color: white;
+  font-size: 1.5vw;
+  margin-left: 15vw;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+th {
+  font-weight: 300;
+  text-align: right;
+  padding-right: 1em;
+}
+
+td {
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+tr:hover {
+  text-decoration: underline;
 }
