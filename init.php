@@ -1,5 +1,5 @@
 <?php
-    if ($_GET["latest"] == 0) {
+    if ($_GET["latest"] == 0 && strlen($_GET["id_playlist"])) {
         $filename = "playlists/" . $_GET["id_playlist"] . ".m3u";
         $exists = file_exists($filename);
         $title = "";

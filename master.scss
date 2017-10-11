@@ -3,6 +3,8 @@
 body {
   margin: 0;
   background-color: #044535;
+  overflow: hidden;
+
 }
 
 #bg {
@@ -69,4 +71,8 @@ td {
 
 tr:hover {
   text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

@@ -35,7 +35,7 @@
 
         $('tr').click(function() {
             if (this.innerText) {
-                window.open("https://www.youtube.com/results?search_query=" + encodeURIComponent(this.innerText));
+                window.open("https://www.youtube.com/results?search_query=" + encodeURIComponent(this.innerText), '_blank');
             }
         });
     </script>
