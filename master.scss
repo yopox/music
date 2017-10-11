@@ -26,8 +26,29 @@ body {
   justify-content: center;
   font-family: 'Quicksand';
   color: white;
-  font-size: 1.5vw;
-  margin-left: 15vw;
+  font-size: 2vw;
+  margin-left: 7vw;
+
+  @media screen and (min-width: 600px) {
+    font-size: 2vw;
+    margin-left: 9vw;
+  }
+
+  @media screen and (min-width: 960px) {
+    font-size: 1.6vw;
+    margin-left: 11vw;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 1.55vw;
+    margin-left: 13vw;
+  }
+
+  @media screen and (min-width: 1600px) {
+    font-size: 1.5vw;
+    margin-left: 15vw;
+  }
+
 }
 
 ul {
