@@ -10,4 +10,11 @@
         $exists = file_exists($filename);
         $title = substr($files[0], 0, 6);
     }
+
+    $class = "w00";
+
+    if (strlen($filename) == 20) {
+        $class = substr($filename, 13, 3);
+    }
+
 ?>

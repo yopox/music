@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 
-<body>
+<body class=<?php echo '"' . $class . '"' ?>>
 
     <ul id="scene" class="scene">
         <li class="layer" data-depth="0.1">
-            <div id="bg"><?php echo $title; ?></div>
+            <div id="bg" class=<?php echo '"' . $class . '"' ?>><?php echo $title; ?></div>
         </li>
         <li class="layer" data-depth="0.2">
             <div id="playlist">

@@ -2,9 +2,8 @@
 
 body {
   margin: 0;
-  background-color: #044535;
   overflow: hidden;
-
+  background-color: #454547;
 }
 
 #bg {
@@ -16,9 +15,9 @@ body {
   font-family: 'Montserrat';
   font-weight: 800;
   font-size: 22vw;
-  color: #001912;
   user-select: none;
   cursor: default;
+  color: #202020;
 }
 
 #playlist {
@@ -75,4 +74,19 @@ tr:hover {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.w41 {
+        background-color: #044535;
+        color: #001912 !important;
+}
+
+.w42 {
+        background-color: #E24231;
+        color: #660A00 !important;
+}
+
+.w43 {
+        background-color: #050825;
+        color: #0B114F !important;
 }

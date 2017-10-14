@@ -5,4 +5,9 @@ bower_components/
 *.css
 
 *.map
+
 .htaccess
+
+.DS_Store
+
+playlists/
