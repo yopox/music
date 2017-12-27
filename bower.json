@@ -16,7 +16,6 @@
   ],
   "dependencies": {
     "jquery": "^3.2.1",
-    "parallax": "^2.1.3",
     "polymer": "Polymer/polymer#^2.1.1"
   }
 }
