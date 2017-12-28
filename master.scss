@@ -23,7 +23,6 @@ body {
 }
 
 #playlist {
-  min-height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -136,4 +135,18 @@ tr:hover {
   background-color: #C82F25;
   background-image: linear-gradient(19deg, #C82F25 0%, #fdb756 100%);
   color: #C82F25 !important;
+}
+
+.nav {
+  width: 100vw;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  font-style: italic;
+  z-index: 1;
+  padding: 32px 0 16px;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 }

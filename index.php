@@ -14,6 +14,10 @@
 
     <div id="bg" class=<?php echo '"' . $class . '"' ?>><?php echo $title; ?></div>
     
+    <div class="nav">
+        <a href="..">yopox</a>
+    </div>
+
     <div id="playlist">
         <table>
             <?php include("parse.php"); ?>
