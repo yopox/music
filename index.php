@@ -12,18 +12,14 @@
 
 <body class=<?php echo '"' . $class . '"' ?>>
 
-    <div id="bg" class=<?php echo '"' . $class . '"' ?>><?php echo $title; ?></div>
-    
-    <div class="nav">
-        <a href="..">yopox</a>
+    <div id="card">
+        <div class="name">Listening ~ <?php echo $title; ?></div>
+        <div id="playlist">
+            <table>
+                <?php include("parse.php"); ?>
+            </table>
+        </div>
     </div>
-
-    <div id="playlist">
-        <table>
-            <?php include("parse.php"); ?>
-        </table>
-    </div>
-        
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript">
