@@ -9,10 +9,10 @@
             $matches = array();
             preg_match_all($pattern, $lines[$i], $matches, PREG_SET_ORDER, 0);
             if (isset($matches[0])) {
-                echo "<tr>
-                          <th>" . $matches[0][1] . "</th>
-                          <td>" . $matches[0][2] . "</td>
-                      </tr>";
+                echo "<div class='song click'>
+                          <div class='art'>" . strtoupper($matches[0][2]) . " —</div>
+                          <div class='tra'>" . strtoupper($matches[0][1]) . "</div>
+                      </div>";
             }
         }
 
