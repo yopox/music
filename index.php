@@ -15,7 +15,7 @@
 
     <div id="bigR">
         <div id="title">
-            18.w34
+            <?php echo $title ?>
         </div>
         <div id="desc">
             TURN THE VOLUME UP
@@ -24,7 +24,7 @@
 
     <div id="playlist">
 
-        <?php include("parse.1.php"); ?>
+        <?php include("parse.php"); ?>
 
     </div>
 
