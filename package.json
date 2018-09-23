@@ -1,0 +1,16 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yopox/music.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/yopox/music/issues"
+  },
+  "homepage": "https://github.com/yopox/music#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

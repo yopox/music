@@ -9,3 +9,5 @@
 .DS_Store
 
 playlists/
+
+node_modules/

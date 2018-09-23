@@ -6,9 +6,8 @@
 <head>
     <meta charset="utf-8">
     <title><?php echo $title; ?></title>
-    <link rel="stylesheet" href="style1.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="master.min.css">
+    <link rel="stylesheet" href="master.css">
 </head>
 
 <body class=<?php echo '"' . $class . '"' ?>>
@@ -28,7 +27,7 @@
 
     </div>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript">
 
         $('.click').click(function() {
