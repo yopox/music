@@ -10,9 +10,8 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #177d4e;
   background-image: linear-gradient(40deg, #84ce62 0%, #177d4e 100%);
-  min-width: 100vw;
   min-height: 100vh;
-  margin: 0px;
+  margin: 0;
 
   @media screen and (min-width: $mobileBreak) {
     padding: 32px 0;
@@ -34,7 +33,6 @@ body {
 #bigR {
   display: flex;
   flex-flow: column;
-  width: 100vw;
   color: #fff;
   box-sizing: border-box;
 
