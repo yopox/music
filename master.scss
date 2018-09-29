@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,800,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,800,900');
 
 $mobileBreak: 375px;
 $mobileBreak2: 425px;
@@ -91,7 +91,7 @@ body {
 }
 
 #playlist {
-  padding: 0px 16px;
+  padding: 0 16px;
   box-sizing: border-box;
   color: #fff;
 
@@ -124,7 +124,7 @@ body {
   }
 
   @media screen and (min-width: $mobileBreak) {
-    padding: 0px 32px;
+    padding: 0 32px;
     .song + .song {
       padding-top: 15px;
     }
@@ -139,11 +139,11 @@ body {
   }
 
   @media screen and (min-width: $mobileBreak2) {
-    padding: 0px 64px;
+    padding: 0 64px;
   }
 
   @media screen and (min-width: $tabletBreak) {
-    padding: 0px 128px;
+    padding: 0 128px;
     .song + .song {
       padding-top: 20px;
     }
@@ -158,7 +158,7 @@ body {
   }
 
   @media screen and (min-width: $desktopBreak) {
-    padding: 0px 176px;
+    padding: 0 176px;
     .song + .song {
       padding-top: 24px;
     }
@@ -173,7 +173,7 @@ body {
   }
 
   @media screen and (min-width: $desktopBreak2) {
-    padding: 0px 256px;
+    padding: 0 256px;
     .song + .song {
       padding-top: 36px;
     }

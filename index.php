@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title><?php echo $title; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="master.min.css">
 </head>
 
 <body class=<?php echo '"' . $class . '"' ?>>
