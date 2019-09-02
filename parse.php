@@ -9,7 +9,7 @@
             $matches = array();
             preg_match_all($pattern, $lines[$i], $matches, PREG_SET_ORDER, 0);
             if (isset($matches[0])) {
-                echo "<div class='song click' style='padding-left: ". ($i-2) * 5 ."px'>
+                echo "<div class='song click' style='padding-left: ". (sin(($i-2) / 2)+ 1) * 12 ."px'>
                           <div class='author'>" . mb_strtoupper($matches[0][2]) . " —</div>
                           <div class='title'>" . mb_strtoupper($matches[0][1]) . "</div>
                       </div>";
@@ -20,4 +20,3 @@
     } else {
         echo "Playlist not found.";
     }
-?>
